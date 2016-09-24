@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!--
+        1 - Event Name      2 - Event Type
+        3 - timeDate        4 - websiteURL
+        5 - Address         6 - Description
+        7 - openClosed      8 - targetAudience
+        9 - duration        10 - organizersName
+       11 - orgEmail        12 - orgContact
+       13 - sponsor         14 - appCredits
+    -->
+    <!-- Dummy Data -->
+
+    <data>
+        <id>1</id>
+        <name>Event Name</name>
+    </data>
+
+    <data>
+        <id>2</id>
+        <name>Event Type</name>
+    </data>
+
+    <data>
+        <id>3</id>
+        <name>Event starts at 9:20 PM, on 23/04/16</name>
+    </data>
+
+    <data>
+        <id>4</id>
+        <name>www.google.com</name>
+    </data>
+
+    <data>
+        <id>5</id>
+        <name>Venue: VIT UNIVERSITY, VANDALUR - KELAMBAKKAM ROAD, CHENNAI, TN.</name>
+    </data>
+
+    <data>
+        <id>6</id>
+        <name>Its an sample event, addressing various lorem ipsum, lorem ipsim.</name>
+    </data>
+
+    <data>
+        <id>7</id>
+        <name>This is an OPEN TO ALL event</name>
+    </data>
+
+    <data>
+        <id>8</id>
+        <name>Students</name>
+    </data>
+
+    <data>
+        <id>9</id>
+        <name>2 Hrs</name>
+    </data>
+
+    <data>
+        <id>10</id>
+        <name>Organising team's name,</name>
+    </data>
+
+    <data>
+        <id>11</id>
+        <name>prasang.sharma7@gmail.com</name>
+    </data>
+
+    <data>
+        <id>12</id>
+        <name>+91 8681070970</name>
+    </data>
+
+    <data>
+        <id>13</id>
+        <name>Sponsors for our event are: Amazon, MTV, RandomShit</name>
+    </data>
+
+    <data>
+        <id>14</id>
+        <name>credits</name>
+    </data>
+
+
+</config>
