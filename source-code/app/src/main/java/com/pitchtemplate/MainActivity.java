@@ -39,7 +39,8 @@ public class MainActivity extends Activity {
         setFonts();
         //setDataFromConfigFile();
         //REPLACED BY
-        configHandler.readConfigFile(this);
+        data=configHandler.readConfigFile(this);
+        setDataFromConfigFile();
 //        Gson tempJson = new Gson();
 //        templateData temp = new templateData("Event Name","Event Type","Event starts at 9:20 PM, on 23/04/16","www.google.com","Venue: VIT UNIVERSITY, VANDALUR - KELAMBAKKAM ROAD, CHENNAI, TN.","Its an sample event, addressing various lorem ipsum, lorem ipsim.","This is an OPEN TO ALL event","Students","2 Hrs","Organising team's name","prasang.sharma7@gmail.com","+91 8681070970","Sponsors for our event are: Amazon, MTV, RandomShit","credits");
 //        Log.d("dummy", tempJson.toJson(temp));
@@ -201,7 +202,7 @@ public class MainActivity extends Activity {
         tv_eventName.setText(data.getEventName());
         tv_eventType.setText(data.getEventType());
         tv_dateTime.setText(data.getTimeDate());
-        tv_website.setText(data.getWebsiteURL());
+        //tv_website.setText(data.getWebsiteURL());
         tv_location.setText(data.getAddress());
         tv_description.setText(data.getDescription());
         tv_openClosedStatus.setText(data.getOpenClosed());
